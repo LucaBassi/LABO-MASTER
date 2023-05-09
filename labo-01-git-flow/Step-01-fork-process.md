@@ -92,10 +92,12 @@ resource "aws_instance" "app_server" {
 
 ```
 [INPUT]
-//TODO
+git add .
+git commit -m "add basic terraform script"
 
 [OUTPUT]
-//TODO
+[feature/terraformBasicScript ed7064a] add basic terraform script
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 ```
 
 * [ ] Finish the feature
@@ -105,24 +107,46 @@ resource "aws_instance" "app_server" {
 git flow feature finish terraformBasicScript
 
 [OUTPUT]
-//TODO
+Switched to branch 'develop'
+Your branch is up to date with 'origin/develop'.
+Updating 0f66467..ed7064a
+Fast-forward
+ labo-01-git-flow/script.sh | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Deleted branch feature/terraformBasicScript (was ed7064a).
+
+Summary of actions:
+- The feature branch 'feature/terraformBasicScript' was merged into 'develop'
+- Feature branch 'feature/terraformBasicScript' has been locally deleted
+- You are now on branch 'develop'
 ```
 
 * Push this modification on your repository
 
 ```
 [INPUT]
-//TODO
+git push
 
 [OUTPUT]
-//TODO
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 387 bytes | 387.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:LucaBassi/Labo-Master.git
+   0f66467..ed7064a  develop -> develop
 ```
 
 * What happens to the feature/branch ?
-
+feature branch is deleted after usage
 ```
+
 //TODO
 Add your answer with command line used to validate your analysis.
+
+git branch
 ```
 
 * Open a pull request comparing your develop branch to your main
@@ -130,12 +154,15 @@ Add your answer with command line used to validate your analysis.
 
 ```
 //TODO
-Screenshot pull request on github
-```
 
+```
+![Alt text](images/firefox_6JbYzIlcZB.png)
+
+![](images/firefox_Mwv2fcsw7c.png)
 * Notify him using a issue "Could you please review my pull request ?"
 
 ```
 //TODO
-Screenshot issue on github
 ```
+
+![Alt text](images/firefox_xw0zrKG84t.png)
