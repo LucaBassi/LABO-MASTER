@@ -10,45 +10,62 @@
 //TODO
 Screenshot of Github
 ```
+![](images/Capture%20d%E2%80%99%C3%A9cran%20du%202023-05-09%2011-09-06.png)
+
 
 * [ ] Clone "teacher" repo in your local machine
 
 ```
 [INPUT]
-//TODO
+git clone git@github.com:LucaBassi/Labo-Master.git
 
 [OUTPUT]
-//TODO
+$ ls 
+$ LABO-MASTER
 ```
 
 * [ ] Init Git flow (with standard settings)
 
 ```
 [INPUT]
-//TODO
+git-flow init
 
 [OUTPUT]
-//TODO
+$ git branch 
+* develop
+  main
+
 ```
 
 * [ ] Integrate updates from upstream (main) into your repository (develop)
 
 ```
 [INPUT]
-//TODO
+git checkout develop
+git pull origin main
 
 [OUTPUT]
-//TODO
+ * branch            main       -> FETCH_HEAD
+Updating 65402b5..35e8589
+Fast-forward
+ labo-01-git-flow/ReadMe.md | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 labo-01-git-flow/ReadMe.md
+
 ```
 
 * [ ] Create a branch feature called "terraformBasicScript"
 
 ```
 [INPUT]
-//TODO
+git checkout -b terraformBasicScript
 
 [OUTPUT]
-//TODO
+git branch
+  develop
+  main
+* terraformBasicScript
+
 ```
 
 * [ ] Add this code and commit it (feat:add basic terraform script")
