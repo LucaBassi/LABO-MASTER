@@ -154,12 +154,15 @@ git branch
 
 ```
 //TODO
-Screenshot pull request on github
+
 ```
+![Alt text](images/firefox_6JbYzIlcZB.png)
+
 ![](images/firefox_Mwv2fcsw7c.png)
 * Notify him using a issue "Could you please review my pull request ?"
 
 ```
 //TODO
-Screenshot issue on github
 ```
+
+![Alt text](images/firefox_xw0zrKG84t.png)
