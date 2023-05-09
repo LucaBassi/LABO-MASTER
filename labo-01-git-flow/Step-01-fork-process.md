@@ -58,13 +58,7 @@ Fast-forward
 
 ```
 [INPUT]
-git checkout -b terraformBasicScript
-
-[OUTPUT]
-git branch
-  develop
-  main
-* terraformBasicScript
+git flow feature start terraformBasicScript
 
 ```
 
@@ -108,7 +102,7 @@ resource "aws_instance" "app_server" {
 
 ```
 [INPUT]
-//TODO
+git flow feature finish terraformBasicScript
 
 [OUTPUT]
 //TODO
