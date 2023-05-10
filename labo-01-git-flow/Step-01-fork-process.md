@@ -4,42 +4,69 @@
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Git-flow scenario to master</p></figcaption></figure>
 
-* [ ] Fork the "upstream" repository in your github organisation
+* [x] Fork the "upstream" repository in your github organisation
 
-```
-//TODO
-Screenshot of Github
-```
+![image-20230510201926483](C:\Users\Auggus\Documents\CPNV\GitHub Repos\Labo-Master\labo-01-git-flow\assets\image-20230510201926483.png)
 
-* [ ] Clone your own repo in your local machine
+* [x] Clone your own repo in your local machine
 
 ```
 [INPUT]
-//TODO
+git clone https://github.com/CPNV-DGS-MON1/Labo-Master.git
 
 [OUTPUT]
-//TODO
+Cloning into 'Labo-Master'...
+remote: Enumerating objects: 24, done.
+remote: Counting objects: 100% (24/24), done.
+remote: Compressing objects: 100% (22/22), done.
+remote: Total 24 (delta 3), reused 18 (delta 1), pack-reused 0
+Receiving objects: 100% (24/24), 6.31 KiB | 1.26 MiB/s, done.
+Resolving deltas: 100% (3/3), done.
+
 ```
 
-* [ ] Init Git flow (with standard settings)
+![image-20230510202231934](C:\Users\Auggus\Documents\CPNV\GitHub Repos\Labo-Master\labo-01-git-flow\assets\image-20230510202231934.png)
+
+* [x] Init Git flow (with standard settings)
 
 ```
 [INPUT]
-//TODO
+git flow init
 
 [OUTPUT]
-//TODO
+Which branch should be used for bringing forth production releases?
+   - main
+Branch name for production releases: [main]
+Branch name for "next release" development: [develop]
+
+How to name your supporting branch prefixes?
+Feature branches? [feature/]
+Bugfix branches? [bugfix/]
+Release branches? [release/]
+Hotfix branches? [hotfix/]
+Support branches? [support/]
+Version tag prefix? []
+Hooks and filters directory? [C:/Users/Auggus/Documents/CPNV/GitHub Repos/Labo-Master/.git/hooks]
 ```
+
+![image-20230510202357159](C:\Users\Auggus\Documents\CPNV\GitHub Repos\Labo-Master\labo-01-git-flow\assets\image-20230510202357159.png)
 
 * [ ] Integrate updates from upstream (main) into your repository (develop)
 
 ```
 [INPUT]
-//TODO
+git remote add upstream https://github.com/CPNV-MON1/Labo-Master.git
 
 [OUTPUT]
-//TODO
+origin  https://github.com/CPNV-DGS-MON1/Labo-Master.git (fetch)
+origin  https://github.com/CPNV-DGS-MON1/Labo-Master.git (push)
+upstream        https://github.com/CPNV-MON1/Labo-Master.git (fetch)
+upstream        https://github.com/CPNV-MON1/Labo-Master.git (push)
 ```
+
+![image-20230510202743642](C:\Users\Auggus\Documents\CPNV\GitHub Repos\Labo-Master\labo-01-git-flow\assets\image-20230510202743642.png)
+
+![image-20230510202718447](C:\Users\Auggus\Documents\CPNV\GitHub Repos\Labo-Master\labo-01-git-flow\assets\image-20230510202718447.png)
 
 * [ ] Create a branch feature called "terraformBasicScript"
 
