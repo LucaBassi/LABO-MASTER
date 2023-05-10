@@ -41,50 +41,54 @@ Pour Linux, [here is the procedure.](https://howtoinstall.co/en/git-flow)
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Source : A successful git branching model</p></figcaption></figure>
 
-* [ ] Which branches are persistent and what do they contain?
+* [x] Which branches are persistent and what do they contain?
 
 ```
-//TODO
-```
-
-* [ ] Why do we have to merge hotfix in both master and develop branches, but not into all active feature branches?
+- Master, contain the production application
+- Develop, contain the delepooing form of application
 
 ```
-//TODO
+
+* [x] Why do we have to merge hotfix in both master and develop branches, but not into all active feature branches?
+
+```
+The modifications added in others branches are not include in changes at the moment of the hotfix opperation.
+They will be merged in a second time, when features branches will be merged.   
 ```
 
 ## Initialize git flow on an existing project
 
-* [ ] What happens when you run the "git flow init" command on an existing local repository?
+* [x] What happens when you run the "git flow init" command on an existing local repository?
 
 ```
-//TODO
+Creation of two branches "Master and Develop", ask for namming other futures branches and switch in branch develop.
 ```
 
-* [ ] When do we need to make this git command?
+* [x] When do we need to make this git command?
 
 ```
-//TODO
+Aflet clonning a repo or at the innitialisation of it.
 ```
 
 ## Practice the basic git commands
 
 [Source](https://www.atlassian.com/git/glossary)
 
-* [ ] What does this git command "git add -all" achieve (.gitignore impacts)?
+* [x] What does this git command "git add -all" achieve (.gitignore impacts)?
 
 ```
-//TODO
+File usually ignored by the file .gitignore will be not ignored and add in the next commit 
 ```
 
-* [ ] What does this git command "git status" achieve?
+* [x] What does this git command "git status" achieve?
 
 ```
-//TODO
+Display the status of the current repo, show witch files are already added or not for the next commit. 
+Show files deleted or added.  
 ```
 
-* [ ] What does this git command "git remote add upstream \<url>" achieve?
+* [x] What does this git command "git remote add upstream \<url>" achieve?
 
 ```
-//TODO
+Add a target who can be fetch or push with current folder
 ```
