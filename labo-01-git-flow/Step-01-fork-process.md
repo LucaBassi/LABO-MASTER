@@ -4,16 +4,13 @@
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Git-flow scenario to master</p></figcaption></figure>
 
-* [ ] Fork the "upstream" repository in your github organisation
+* [x] Fork the "upstream" repository in your github organisation
 
-```
-//TODO
-Screenshot of Github
-```
+
 ![](images/Capture%20d%E2%80%99%C3%A9cran%20du%202023-05-09%2011-09-06.png)
 
 
-* [ ] Clone "teacher" repo in your local machine
+* [x] Clone "teacher" repo in your local machine
 
 ```
 [INPUT]
@@ -24,7 +21,7 @@ $ ls
 $ LABO-MASTER
 ```
 
-* [ ] Init Git flow (with standard settings)
+* [x] Init Git flow (with standard settings)
 
 ```
 [INPUT]
@@ -37,12 +34,12 @@ $ git branch
 
 ```
 
-* [ ] Integrate updates from upstream (main) into your repository (develop)
+* [x] Integrate updates from upstream (main) into your repository (develop)
 
 ```
 [INPUT]
 git checkout develop
-git pull origin main
+git pull upstream main
 
 [OUTPUT]
  * branch            main       -> FETCH_HEAD
@@ -54,7 +51,7 @@ Fast-forward
 
 ```
 
-* [ ] Create a branch feature called "terraformBasicScript"
+* [x] Create a branch feature called "terraformBasicScript"
 
 ```
 [INPUT]
@@ -62,7 +59,7 @@ git flow feature start terraformBasicScript
 
 ```
 
-* [ ] Add this code and commit it (feat:add basic terraform script")
+* [x] Add this code and commit it (feat:add basic terraform script")
 
 ```
 terraform {
@@ -100,7 +97,7 @@ git commit -m "add basic terraform script"
  1 file changed, 1 insertion(+), 1 deletion(-)
 ```
 
-* [ ] Finish the feature
+* [x] Finish the feature
 
 ```
 [INPUT]
@@ -140,29 +137,22 @@ To github.com:LucaBassi/Labo-Master.git
 ```
 
 * What happens to the feature/branch ?
+``` 
 feature branch is deleted after usage
 ```
-
-//TODO
 Add your answer with command line used to validate your analysis.
 
+```
 git branch
 ```
 
 * Open a pull request comparing your develop branch to your main
 * Assign the pull request to your partner
 
-```
-//TODO
-
-```
 ![Alt text](images/firefox_6JbYzIlcZB.png)
 
 ![](images/firefox_Mwv2fcsw7c.png)
 * Notify him using a issue "Could you please review my pull request ?"
 
-```
-//TODO
-```
+![Alt text](images/firefox_eudJXo7hXN.png)
 
-![Alt text](images/firefox_xw0zrKG84t.png)
