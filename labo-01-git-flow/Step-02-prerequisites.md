@@ -13,26 +13,39 @@ Pour Linux, [here is the procedure.](https://howtoinstall.co/en/git-flow)
 
 ```
 [INPUT]
-//TODO
+git flow init
 
 [OUTPUT]
-//TODO
+Which branch should be used for bringing forth production releases?
+   - main
+Branch name for production releases: [main] 
+Branch name for "next release" development: [develop] 
+
+How to name your supporting branch prefixes?
+Feature branches? [feature/] 
+Bugfix branches? [bugfix/] 
+Release branches? [release/] 
+Hotfix branches? [hotfix/] 
+Support branches? [support/] 
+Version tag prefix? [] 
+Hooks and filters directory? [/home/louc/Documents/Git/MON1/Labo-Master/.git/hooks] 
+
 ```
 
-* [ ] Confirm the installed version
+* [x] Confirm the installed version
 
 ```
 [INPUT]
-//TODO
+git flow version
 
 [OUTPUT]
-//TODO
+1.12.3 (AVH Edition)
 ```
 
 * [ ] What do you think about this release?
 
 ```
-//TODO
+?
 ```
 
 ## What's git-flow, branches feature.
