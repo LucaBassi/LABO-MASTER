@@ -20,7 +20,6 @@
 sudo apt install stress
 sudo stress --cpu  8 --timeout 20
 ```
-![Alt text](../labo-01-git-flow/images/firefox_ujIByvHGDr.png)
 
 
 <figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Htop view with load on CPU</p></figcaption></figure>
@@ -29,3 +28,5 @@ sudo stress --cpu  8 --timeout 20
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>CPU Peak on New Relic</p></figcaption></figure>
 
+
+![Alt text](../labo-01-git-flow/images/firefox_ujIByvHGDr.png)
